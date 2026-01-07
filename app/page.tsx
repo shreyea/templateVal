@@ -1,13 +1,13 @@
 'use client';
 import { useEffect } from 'react';
-import HeroSection from '@/components/HeroSection';
-import LoveTimeline from '@/components/LoveTimeline';
-import OpenWhenLetters from '@/components/OpenWhenLetters';
-import SurpriseWheel from '@/components/SurpriseWheel';
-import PhotoMemoryWall from '@/components/PhotoMemoryWall';
-import PuzzleLock from '@/components/PuzzleLock';
-import PromiseCards from '@/components/PromiseCards';
-import DedicationLetter from '@/components/DedicationLetter';
+import HeroSection from '../components/HeroSection';
+import LoveTimeline from '../components/LoveTimeline';
+import OpenWhenLetters from '../components/OpenWhenLetters';
+import SurpriseWheel from '../components/SurpriseWheel';
+import PhotoMemoryWall from '../components/PhotoMemoryWall';
+import PuzzleLock from '../components/PuzzleLock';
+import PromiseCards from '../components/PromiseCards';
+import DedicationLetter from '../components/DedicationLetter';
 
 
 export default function Home() {
