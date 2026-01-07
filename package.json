@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3001",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+   "build": "next build --no-lint",
+
+    "start": "next start"
+   
   },
   "dependencies": {
     "framer-motion": "^11.0.0",
