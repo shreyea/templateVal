@@ -1,21 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply bg-warm-cream text-ink-brown antialiased;
-    font-feature-settings: 'kern' 1, 'liga' 1;
-  }
+html, body {
+  background-color: theme("colors.warm-cream");
+}
+
   
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Cormorant', Georgia, serif;
     font-weight: 600;
     letter-spacing: -0.02em;
   }
-}
+
 
 /* Premium paper texture */
 .paper-texture {
