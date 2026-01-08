@@ -15,16 +15,16 @@
     "postcss": "^8.5.6",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "tailwindcss": "^3.4.19"
-  },
-  "devDependencies": {
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
     "@types/node": "^20.19.27",
     "@types/react": "^18.3.27",
-    "@types/react-dom": "^18",
+    "@types/react-dom": "^18"
+  },
+  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.52.0",
     "@typescript-eslint/parser": "^8.52.0",
     "eslint": "^9.39.2",
-    "eslint-config-next": "^16.1.1",
-    "typescript": "^5.9.3"
+    "eslint-config-next": "^16.1.1"
   }
 }
