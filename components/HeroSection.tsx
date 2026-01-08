@@ -82,7 +82,8 @@ export default function HeroSection() {
                 { delay: 0.4, rotate: -2, img: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400' },
                 { delay: 0.5, rotate: 1.5, img: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400' },
                 { delay: 0.6, rotate: -1, img: 'https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=400' },
-                { delay: 0.7, rotate: 2, img: 'https://images.unsplash.com/photo-1522673607212-557ad1f1e9a5?w=400' }
+                { delay: 0.7, rotate: 2.5, img: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=400' },
+            
               ].map((photo, i) => (
                 <motion.div
                   key={i}
